@@ -51,7 +51,7 @@ let length
   else length = data.photos.length
 
 for(let i = 0; i < length; i++) {
-   photos.innerHTML += `<div><a class="uk-inline picture" href=${data.photos[i].img_src} caption=${data.photos[i].camera.full_name}><img src=${data.photos[i].img_src}></a></div>`
+   photos.innerHTML += `<div><a class="uk-inline picture wow bounceInUp" href=${data.photos[i].img_src} caption=${data.photos[i].camera.full_name}><img src=${data.photos[i].img_src}></a></div>`
 }
   tableinfo.innerHTML +=`<p id="description">> A mission manifest is available for each Rover. This manifest will list details of the Rover's mission:</p><table><thead>${thead}</thead><tbody>${tbody}</tbody></table>`
 
